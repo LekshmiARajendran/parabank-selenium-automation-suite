@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ParaBank Test Suite">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="ParaBank Functional Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.OpenAccountTest"/>
+            <class name="tests.FindTransactionsTest"/>
+            <class name="tests.TransferFundsTest"/>
+            <class name="tests.BillPayTest"/>
+            <class name="tests.RegisterTest"/>
+            <class name="tests.UpdateContactInfoTest"/>
+            <class name="tests.LogoutTest"/>
+        </classes>
+    </test>
+</suite>
